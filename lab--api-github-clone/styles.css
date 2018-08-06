@@ -1,0 +1,298 @@
+*{
+	 box-sizing: border-box;
+	 font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,
+	 "Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+	
+}
+
+div{
+	padding: 10px;}
+	
+.holeContainer{
+	width: 1271px;
+	height: 2000px;
+	min-width: 1271px;
+	min-height: 2000px;
+	max-width: 1271px;
+	max-height: 2000px;
+	margin: 0px auto;
+}
+
+
+.fa.fa-github{
+	height: 50px;
+	width: 50px;
+
+}
+
+.barnav{
+	height: 100px;
+	border: 1px solid #bfbdbf;
+	background-color: #ededed;
+	margin: 10px;
+	display: flex;
+/*	background: linear-gradient(to bottom, #4678F3, #64D6EE);
+*/
+}
+
+.barnav__inputs{
+	width: 50%;
+	height: 60px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	background-color: #ededed;
+	margin: 10px 40px;
+	font-weight: bold;
+	border: none;
+/*	background: linear-gradient(to bottom, #4678F3, #64D6EE);
+*/}
+
+.barnav__inputs__dos{
+
+	width: 50%;
+	height: 60px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: right;
+	background-color: #ededed;
+	margin: 10px 40px;
+	font-weight: bold;
+	border: none;
+/*	background: linear-gradient(to bottom, #4678F3, #64D6EE);
+*/}
+.barnav__inputs__dos i{
+	margin: 5px 10px;
+}
+
+.barnav__inputs__dos.i{
+	margin: 	 0px;
+}
+
+.container__dosFormas{
+	display: flex;
+	flex-direction: row;
+	border: none;
+
+}
+
+.container__dosFormas__uno{
+width: 30%;
+height: auto;
+border: none;
+
+}
+
+.container__dosFormas__dos{
+width: 100%;	
+height: 500px;
+border: none;
+}
+
+.izquierdo__uno{
+	height: 260px;
+	border: none;
+/*	background-color: red;
+*/}
+
+.imagen__uno{
+	width: 280px;
+	height: 240px;
+	max-width: 280px;
+	max-height: 240px;
+	border: 1px solid gray;
+}
+
+.izquierdo__travis{
+
+	font-size: 40px;
+	font-weight: bold;
+	border: none;
+	padding: 10px 0px 0px 10px;
+}
+
+.izquierdo__t3{
+	color: gray;
+	border: none;
+	padding: 0px 0px 0px 10px;
+	font-size: 20px;
+}
+.izquierdo__button{
+	padding: 10px 0px;
+	border: none;
+}
+
+.btn{
+	width: 100%;
+	height: 60px;
+	margin: 20px 0px 0px 0px;
+}
+ .btn.hover {
+
+    background-color: #e6ebf1;
+/*    background-image: linear-gradient(-180deg, #f0f3f6 0%, #e6ebf1 90%);
+*/    background-position: -.5em;
+    border-color: rgba(27,31,35,0.35);
+}
+.btn:hover {
+    text-decoration: none;
+    background-repeat: repeat-x;
+}
+
+.izquierdo__block{
+	font-size: 12px;
+	color:#878787;
+	border: none;
+	padding: 1px 0px 20px 0px;
+	border-bottom: 1px solid #dcdcdc;
+}
+
+.izquierdo__mess{
+	padding: 10px 0px 0px 15px;
+	font-size: 20px;
+	font-weight: 600;
+	border: none;
+}
+.izquierdo__maptag{
+	padding: 10px 0px 0px 15px;
+	font-size: 18px;
+	font-weight: 300;
+	border: none;
+}
+.izquierdo__mail{
+	padding: 10px 0px 0px 15px;
+	font-size: 18px;
+	font-weight: 300;
+	border: none;
+	color: #6574cd;
+}
+.izquierdo__chain{
+	padding: 10px 0px 0px 15px;
+	font-size: 18px;
+	font-weight: 600;
+	border: none;
+	color: #6574cd;
+}
+
+span{
+	margin:0;
+}
+
+.container__dosFormas__uno i{
+	color: gray;
+	margin-right:10px;
+	width: 18px;
+	height: 18px;
+}
+
+.barnav__inputs__dos i{
+	color: black;
+	margin-right:10px;
+	width: 10px;
+	height: 10px;
+	padding: 0;	
+	font-size: 30px;
+}
+#flechita1, #flechita2{
+		color: orange;
+
+}
+
+#flechita1:hover, #flechita2:hover{
+		color: red;
+
+}
+
+#little__face{
+ width: 40px;
+ height: 40px;
+ margin-left: 20px;
+}
+
+#bell{
+	margin-right: 40px;
+}
+
+.barnav__inputs__tres{
+
+	width: 100%;
+	height: 60px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: 10px 40px 10px 5px;
+	font-weight: bold;
+	border: none;
+	border-bottom: 1px solid #dcdcdc;
+	
+}
+.barnav__inputs__tres p{
+
+	border-bottom: 1px solid white;
+	padding-bottom: 13px;
+	margin: 10px 40px 10px 5px;
+	color: gray;
+	font-size: 20px;
+	
+}
+
+.tres__repo{
+	border-bottom: 1px solid red;
+	padding-bottom: 13px;
+	margin: 10px 40px 10px 5px;
+	
+}
+.input__cuatro{
+	border: none;
+	width: 100%;
+	border-bottom: 1px solid #dcdcdc;
+	padding:  10px 40px 20px 5px;
+}
+.input__cuatro input{
+	width: 60%;
+	height: 55px;
+
+}
+
+#type{
+	width: 155px;
+	height: 55px;
+	color: gray;
+	font-size: 20px;
+}
+
+#lang{
+	width: 170px;
+	height: 55px;
+	color: gray;
+	font-size: 20px;
+}
+
+.repos {
+  width: 100%; }
+  .repos__single {
+    padding: 0 5%; }
+    .repos__single__title{
+    	color: blue;
+    	font-size: 30px;
+    	margin: 40px 10px 20px 10px;
+    }
+    .repos__single__details {
+      display: flex;
+      flex-direction: row;
+      padding-bottom: 20px;
+      border: none;
+      border-bottom: 1px solid lightgray; }
+      .repos__single__details__language {
+        padding-right: 16px;
+        margin: 0;
+        border-right: black solid 1px; }
+      .repos__single__details__commits {
+        padding: 0 16px;
+        margin: 0;
+        border-right: black solid 1px; }
+      .repos__single__details__date {
+        padding: 0 16px;
+		margin: 0; }
